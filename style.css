@@ -10,6 +10,27 @@ header h1 {
   font-family: "Protest Revolution", sans-serif;
 }
 
+.nav .nav-item {
+  align-items: center;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.nav .nav-item:hover {
+  transition: .3s;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .nav-link {
   color: #000;
+}
+
+.nav-tabs .nav-link.active{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
